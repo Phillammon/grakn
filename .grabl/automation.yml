@@ -123,7 +123,7 @@ build:
         # bazel test //test/behaviour/graql/language/define/... --test_output=errors
     test-behaviour10:
       machine: graknlabs-ubuntu-20.04-java11
-        script: |
+      script: |
         bazel test //test/behaviour/connection/... --test_output=errors
         bazel test //test/behaviour/concept/... --test_output=errors
         # bazel test //test/behaviour/graql/language/define/... --test_output=errors
