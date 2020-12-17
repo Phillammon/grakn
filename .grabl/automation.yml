@@ -100,9 +100,9 @@ build:
     test-behaviour6:
       machine: graknlabs-ubuntu-20.04-java11
       script: |
-      bazel test //test/behaviour/connection/... --test_output=errors
-      bazel test //test/behaviour/concept/... --test_output=errors
-      # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
     test-behaviour7:
       machine: graknlabs-ubuntu-20.04-java11
       script: |
@@ -152,12 +152,6 @@ build:
         bazel test //test/behaviour/concept/... --test_output=errors
         # bazel test //test/behaviour/graql/language/define/... --test_output=errors
     test-behaviour15:
-      machine: graknlabs-ubuntu-20.04-java11
-      script: |
-        bazel test //test/behaviour/connection/... --test_output=errors
-        bazel test //test/behaviour/concept/... --test_output=errors
-        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
-    test-behaviour16:
       machine: graknlabs-ubuntu-20.04-java11
       script: |
         bazel test //test/behaviour/connection/... --test_output=errors
