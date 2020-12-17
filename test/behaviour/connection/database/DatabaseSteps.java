@@ -51,11 +51,13 @@ public class DatabaseSteps {
 
     @When("connection create databases in parallel:")
     public void connection_create_databases_in_parallel(List<String> names) {
-        assertTrue(THREAD_POOL_SIZE >= names.size());
+        assertTrue(THREAD_POOL_SIZE >= names.size() * 3);
 
         final CompletableFuture<?>[] creations = new CompletableFuture<?>[names.size()];
         int i = 0;
         for (String name : names) {
+            creations[i++] = CompletableFuture.supplyAsync(() -> grakn.databases().create(name), threadPool);
+            creations[i++] = CompletableFuture.supplyAsync(() -> grakn.databases().create(name), threadPool);
             creations[i++] = CompletableFuture.supplyAsync(() -> grakn.databases().create(name), threadPool);
         }
 

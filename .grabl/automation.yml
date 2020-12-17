@@ -73,6 +73,96 @@ build:
         bazel test //test/behaviour/connection/... --test_output=errors
         bazel test //test/behaviour/concept/... --test_output=errors
       # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour2:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+      # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour3:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+      # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour4:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+      # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour5:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour6:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+      bazel test //test/behaviour/connection/... --test_output=errors
+      bazel test //test/behaviour/concept/... --test_output=errors
+      # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour7:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour8:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour9:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour10:
+      machine: graknlabs-ubuntu-20.04-java11
+        script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour11:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour12:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour13:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour14:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour15:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
+    test-behaviour16:
+      machine: graknlabs-ubuntu-20.04-java11
+      script: |
+        bazel test //test/behaviour/connection/... --test_output=errors
+        bazel test //test/behaviour/concept/... --test_output=errors
+        # bazel test //test/behaviour/graql/language/define/... --test_output=errors
     test-assembly-linux-targz:
       machine: graknlabs-ubuntu-20.04-java11
       filter:
